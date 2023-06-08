@@ -65,8 +65,23 @@ console.log(10 && 6);
 
 // -> The mejor thing '==' does the type conversion and '===' does not perform type conversion
 
-if(1 == '1') {
-    console.log("Wow, this is the same case");
-}
+// if(1 == '1') {
+//     console.log("Wow, this is the same case");
+// }
 
-console.log(typeof(null));
+// console.log(typeof(null));
+
+// Function are useful in every language Javascript have some new ways to create function let's check
+
+function printBest() {
+    console.log("Dhruv is best code is the world!");
+}
+printBest();
+
+// Why we have to return from function we can also use console.log()
+
+// console.log -> return undefined
+
+let c = console.log("Dhruv");
+console.log(c);
+
